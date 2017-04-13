@@ -7,7 +7,11 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 setenv VIRTUAL_ENV "/Users/corbinmuraro/Dropbox/Projects/products/redflag/venv"
+=======
+setenv VIRTUAL_ENV "/home/ec2-user/redflag/venv"
+>>>>>>> 09bd5112a17f3f24be0a2b7f2c308281dffd79bb
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

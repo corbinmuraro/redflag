@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/Users/corbinmuraro/Dropbox/Projects/products/redflag/venv/bin/python
+=======
+#!/home/ec2-user/redflag/venv/bin/python2.7
+>>>>>>> 09bd5112a17f3f24be0a2b7f2c308281dffd79bb
 
 # -*- coding: utf-8 -*-
 import re
@@ -7,5 +11,9 @@ import sys
 from pip import main
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+=======
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+>>>>>>> 09bd5112a17f3f24be0a2b7f2c308281dffd79bb
     sys.exit(main())

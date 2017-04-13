@@ -36,7 +36,11 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV "/Users/corbinmuraro/Dropbox/Projects/products/redflag/venv"
+=======
+set -gx VIRTUAL_ENV "/home/ec2-user/redflag/venv"
+>>>>>>> 09bd5112a17f3f24be0a2b7f2c308281dffd79bb
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -64,7 +68,11 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         if test -n ""
             printf '%s%s' "" (set_color normal)
         else
+<<<<<<< HEAD
             printf '%s(%s%s%s) ' (set_color normal) (set_color -o white) (basename "$VIRTUAL_ENV") (set_color normal)
+=======
+            printf '%s(%s) ' (set_color normal) (basename "$VIRTUAL_ENV")
+>>>>>>> 09bd5112a17f3f24be0a2b7f2c308281dffd79bb
         end
 
         # Restore the original $status

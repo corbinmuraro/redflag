@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /System/Library/Frameworks/Python.framework/Versions/2.7
+=======
+/usr
+>>>>>>> 09bd5112a17f3f24be0a2b7f2c308281dffd79bb
